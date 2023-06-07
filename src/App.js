@@ -56,7 +56,7 @@ function Board({ xIsNext, squares, onPlay }) {
   } else {
     status = "Next player: " + (xIsNext ? "X" : "O");
   }
-
+  console.log("add new data");
   return (
     <>
       <div className="status">{status}</div>
